@@ -58,7 +58,6 @@ function copyTextToClipboard(text) {
   // so some of these are just precautions. However in IE the element
   // is visible whilst the popup box asking the user for permission for
   // the web page to copy to the clipboard.
-  //
 
   // Place in top-left corner of screen regardless of scroll position.
   textArea.style.position = 'fixed';
